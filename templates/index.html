@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Smart Expense Tracker</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Smart Expense Tracker</h1>
+
+        <form action="/add" method="POST">
+
+            <input type="text"
+                   name="expense"
+                   placeholder="Enter Expense Name">
+
+            <input type="number"
+                   name="amount"
+                   placeholder="Enter Amount">
+
+            <select name="category">
+
+                <option>Food</option>
+                <option>Travel</option>
+                <option>Shopping</option>
+                <option>Bills</option>
+
+            </select>
+
+            <button type="submit">
+                Add Expense
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
