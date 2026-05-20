@@ -5,19 +5,29 @@ An AI-powered web application that helps users manage daily expenses and predict
 🛠️ Tech Stack
 
 🐍 Python
+
 🌐 Flask
+
 🤖 Machine Learning
+
 📊 Scikit-learn
+
 🎨 HTML
+
 🖌️ CSS
+
 ⚡ JavaScript
 
 ✨ ## Features
 
 📝 Add daily expenses
+
 📂 Manage expense categories
+
 📈 Predict future expenses using ML
+
 💡 Simple and user-friendly interface
+
 💰 Smart expense tracking system
 
 🔗##  Project Repository
