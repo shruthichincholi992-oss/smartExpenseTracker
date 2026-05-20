@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
@@ -6,20 +7,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/add', methods=['POST'])
-def add():
+@app.route('/predict')
+def predict():
+    return "Predicted expense for next day is: ₹600"
 
-    expense = request.form['expense']
-    amount = request.form['amount']
-    category = request.form['category']
-
-    return f"""
-    Expense Added Successfully! <br><br>
-
-    Expense: {expense} <br>
-    Amount: {amount} <br>
-    Category: {category}
-    """
-
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
