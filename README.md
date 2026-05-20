@@ -1,43 +1,21 @@
-﻿##  💸 Smart Expense Tracker with ML Prediction
+﻿
+💸 Smart Expense Tracker with ML Prediction
 
-An AI-powered web application that helps users manage daily expenses and predict future expenses using Machine Learning.
+An AI-powered expense tracking web application that helps users manage expenses and predict future expenses using Machine Learning.
 
-🛠️ Tech Stack
+🔗 Live Project Links
 
-🐍 Python
+⤿ Frontend (Vercel)
+https://smart-expense-tracker-red.vercel.app/
 
-🌐 Flask
+⤿ Backend API (Render)
+https://smartexpensetracker-udzx.onrender.com
 
-🤖 Machine Learning
-
-📊 Scikit-learn
-
-🎨 HTML
-
-🖌️ CSS
-
-⚡ JavaScript
-
-✨ ## Features
-
-📝 Add daily expenses
-
-📂 Manage expense categories
-
-📈 Predict future expenses using ML
-
-💡 Simple and user-friendly interface
-
-💰 Smart expense tracking system
-
-🔗##  Project Repository
+🔗 GitHub Repository
 
 https://github.com/shruthichincholi992-oss/smartExpenseTracker
 
-👩‍💻 ## Created By
+👩‍💻 Created By
 
 Shruthi Chincholi
 
-📌 ## About
-
-ML-powered Smart Expense Tracking and Prediction System
