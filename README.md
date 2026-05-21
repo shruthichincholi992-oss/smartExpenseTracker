@@ -6,12 +6,15 @@ An AI-powered expense tracking web application that helps users manage expenses 
 🔗 Live Project Links
 
 ⤿ Frontend (Vercel)
+
 https://smart-expense-tracker-red.vercel.app/
 
 ⤿ Backend API (Render)
+
 https://smartexpensetracker-udzx.onrender.com
 
 🔗 GitHub Repository
+
 
 https://github.com/shruthichincholi992-oss/smartExpenseTracker
 
